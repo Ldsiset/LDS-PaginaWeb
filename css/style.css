@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    /*background: hsl(0, 1%, 22%);*/
+    background: black;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+  position: fixed;
+      background: #407947;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      position: static;
+      width: 100%;
+      z-index: 34242;
+      padding-bottom: 30px;
+}
+.col-md-4 {
+    background: #407947;
+    height: 50px;
+}
+.au{
+
+  text-align: right;
+
+}
+
+.audio{
+  max-height: 30px;
+  max-width: 150px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+
+  /*le Agregue*/
+  margin-top: 85px;
+}
+.col-md-3 {
+    background: #407947;
+    text-align: center;
+    padding: 20px;
+}
+.col-md-8 {
+    background: #407947;
+    height: 90px;
+}
+.logoarm {
+    max-height: 100px;
+    min-height: 100px;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  /*  background: black;*/
+    border-radius: 40px;
+
+}
+
+.row-social{
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+}
+.col-2 img{
+  height: 100px;
+  width: 100px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+nav {
+    height: 50px;/*MODIFIQUE*/
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px;
+    line-height: 80px;
+
+    /*DESACTIVE*/
+    /*padding-bottom: 10px;
+    line-height: 80px;*/
+}
+.col-md-99 {
+
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  right: 0px;
+  background: #407947;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+
+    }
+.col-md-5 {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    right: 0px;
+    background: black;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.botonera {
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+
+}
+.botonera li {
+    font-size: 24px;
+    margin: 0 60px;
+    line-height: 120px;
+    text-transform: uppercase;
+    width: max-content;
+
+
+}
+.botonera li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+
+}
+.botonera li a:hover {
+    color: rgb(255, 251, 6);
+    text-decoration: none;
+    background: black;
+    border-radius: 15px;
+
+}
+.principal {
+    background: rgb(3, 3, 253);
+    height: 100vh;
+    background: url(../images/VIAJEROS-ARGENTINOS-3.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.vertical-centered-text {
+    -ms-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /*  padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 40%;*/
+
+}
+.nosotrosinfoarm {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.interesarm {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+}
+.interesarm .col-md-3 {
+    justify-content: center;
+}
+
+
+.cta {
+    text-align: center;
+}
+h1 {
+    font-weight: 800px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+}
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+
+}
+
+.sub{
+  font-weight: 100;
+  font-size: 15px;
+  color: rgb(255, 238, 2);
+  text-shadow: 10px 10px 10px black;
+
+}
+h3 {
+    font-weight: 400;
+    font-size: 35px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+h4 {
+    font-weight: 300;
+    font-size: 25px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+h5 {
+    font-weight: 200;
+    font-size: 25px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+h6 {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-right: 10px;
+
+}
+
+h6 p{
+text-shadow: 10px 10px 10px black;
+
+}
+
+h7 {
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.col-md-98{
+  padding-bottom: 80px;
+
+}
+.col-md-98 .argentina1 {
+/*color:red;*/
+margin: 20px;
+margin-bottom: 20px;
+
+/*-ms-display: flex;
+display: flex;*/
+text-decoration: none;
+text-transform: uppercase;
+width: max-content;
+align-items: center;
+
+}
+
+
+
+
+.argentina {
+    background: #0b5eca;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 250;
+    font-size: 40px;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+}
+
+.argentina1 {
+    background: #0b5eca;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 250;
+    font-size: 30px;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+}
+
+.objetivos {
+    width: 200%;
+    height: 60vh;
+    text-align: center;
+    padding-top: 100px;
+}
+.nosotros {
+    font-weight: 250;
+    font-size: 30px;
+    color: rgb(252, 252, 252);
+    text-align: right;
+}
+.servicios {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.servicios img {
+    width: 30%;
+    text-align: center;
+}
+.nosotros h2 {
+    color: white;
+    font-weight: 100px;
+    text-align: right;
+}
+.servicios .images {
+    padding-top: 80px;
+}
+.images .col-md-3 {
+    padding-top: 50px;
+}
+footer {
+    background: #407947;
+    height: 60vh;
+    padding-top: 50px;
+}
+footer h2 {
+    text-align: center;
+    font-weight: 100px;
+}
+.nosotros {
+    color: white;
+}
+.col-xs-4 {
+    text-align: right;
+}
+.col-md-12{
+  margin: 20px;
+  padding-bottom: 80px;
+}
+
+
+
+.logoiset57 {
+    box-shadow: 10px 10px 10px black;
+    max-width:20%;
+    display: block;
+    margin: auto;
+
+}
+.logo {
+    padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1280px) {
+
+    .logoarm {
+          max-height: 70px;
+          min-height: 70px;
+          width: 70px;
+  }
+/*lE AGREGUE*/
+  .botonera li a {
+      font-size: 14px;
+  }
+
+  .botonera li {
+      font-size: 12px;
+      margin: 0 10px;
+      line-height: 120px;
+      text-transform: uppercase;
+      width: max-content;
+}
+/*-------------*/
+    .cta {
+        text-align: center;
+    }
+
+
+    .au{
+
+  text-align: center;
+
+}
+
+
+/*lE AGREGUE*/
+.audio{
+
+  max-height: 30px;
+  max-width: 150px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-top: 80px;
+}
+/*-------------*/
+
+
+    h1 {
+        font-size: 30px;
+    }
+    .col-md-2 {
+        width: 100%;
+    }
+    .social img {
+        width: 80%;
+    }
+
+    .nosotros {
+        height: 400px;
+        overflow: center;
+        padding-top: 10px;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+}
+.col-md-12{
+    text-align: center;
+}
+
+.col-md-98{
+  text-align: center;
+  padding-bottom: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+.col-md-98 .argentina1 {
+/*color:red;*/
+text-decoration: none;
+align-items: center;
+-ms-display: flex;
+display: flex;
+justify-content: center;
+
+}
